@@ -9,3 +9,4 @@ Upload your output to GitHub, create a link to a new Page and answer the followi
 3. What limitations or improvements might you include in order to improve your proposed design?
     - I think that improvements can definitely be made! If the detector could reach a distance of at least 500 feat from a 30-45 angle of camera viewing, that would be very effective in solidifying more accurate contact tracing in both public and private spaces. 
 
+4. One more thing, this is a test.
