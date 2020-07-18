@@ -4,4 +4,4 @@ Responses
 
 [Project 1](https://c-hibbert.github.io/DATA_310_Notes/Project1)
 
-[Project 2-Art Therapy](https://c-hibbert.github.io/DATA_310_Notes/Project2-ArtTherapy.md)
+[Project 2-Art Therapy](https://c-hibbert.github.io/DATA_310_Notes/Project2-ArtTherapy)
