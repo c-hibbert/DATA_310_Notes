@@ -1,6 +1,6 @@
-#7 July 2020
+# 7 July 2020
 
-##Questions
+## Questions
 1. In Laurence Maroney’s video, What is ML, he compares traditional programming with machine learning and argues that the main difference between the two is a reorientation of the rules, data and answers.  According to Maroney, what is the difference between traditional programming and machine learning?
     - A: The difference between machine learning and traditional programming is the process in which machine learning occurs. Machine learning is a method in which coders teach a computer system to effectively evaluate a new set of data when given past “training” values and answers. It’s a way to teach the computer how to write the rules of an equation.
 
@@ -15,9 +15,9 @@
     2. Which one is the worst deal?  Justify your answer.
         1. Based off of house price and bedroom number, I would conclude that the Church house has the worst deal with an actual price of $399,000 vs. a $291,737 guessed price
 
-#8 July 2020
+# 8 July 2020
 
-##Questions
+## Questions
 1. In the video, First steps in computer vision, Laurence Maroney introduces us to the Fashion MNIST data set and using it to train a neural network in order to teach a computer “how to see.” One of the first steps towards this goal is splitting the data into two groups, a set of training images and training labels and then also a set of test images and test labels. Why is this done? What is the purpose of splitting the data into a training set and a test set? 
 	* Using a set of testing and training data gives the computer the ability to apply the rules that it “learned” from the data in the training set. Splitting the data into these two groups gives us a chance to see how well the program understood the data given to it.
 
@@ -59,9 +59,9 @@ Produce the following plot for your randomly selected image from the test datase
 
 
 
-#9 July 2020
+# 9 July 2020
 
-##Questions
+## Questions
 1. What is TF Hub?  How did you use it when creating your script for “text classification of movie reviews”?
 	* Tensorflow Hub is a library that contains usable parts of machine learning modules. For the movie reviews example, TF hub was used to incorporate a pre-trained text embedding model into our data. 
 2. What are the optimizer and loss functions?  How good was your “text classification of movie reviews” model?
