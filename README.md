@@ -1,6 +1,6 @@
 Responses
 
-[Week 1 Respones](https://c-hibbert.github.io/DATA_310_Notes/Week1_Responses)
+[Week 1 Respones](https://c-hibbert.github.io/DATA_310_Notes/Week1)
 
 [Project 1](https://c-hibbert.github.io/DATA_310_Notes/Project1)
 
