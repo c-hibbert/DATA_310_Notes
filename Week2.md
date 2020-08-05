@@ -144,7 +144,7 @@ _The code is as follows_
 
 ## Question 1
 * What was the significance of comparing the 4 different sized models (tiny, small, medium, large)? Can you include a plot to illustrate your answer?
-![](all_sizes_graphs.png)
+![](all_sizes_ graphs.png)
 	* The significance of comparing the different sized models is to demonstrate how much larger size models can affect the reliability of your model. Once a model becomes larger, it tends to learn the training set “too well” to the point where it becomes overfit. 
 
 
