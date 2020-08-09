@@ -10,7 +10,7 @@ Responses
 
 [Week 3 Responses](https://c-hibbert.github.io/DATA_310_Notes/Week3)
 
-[Project 3 Responses](https://c-hibbert.github.io/DATA_310_Notes/Project3)
+[Project 3 - Accra Population Detection](https://c-hibbert.github.io/DATA_310_Notes/Project3)
 
 [Week 4 Responses](https://c-hibbert.github.io/DATA_310_Notes/Week4)
 
