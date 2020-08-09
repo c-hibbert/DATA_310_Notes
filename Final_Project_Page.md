@@ -42,6 +42,6 @@ _This photo is from the brand's Instagram page, where the filter applied to aest
 
 ![](insta_4.png) 
 
-##The Future of my Research: 
+## The Future of my Research: 
 In the future, I plan on testing my Scan to Shop algorithm and hopefully expand it to apply to larger businesses like Topshop, Nike, and more. I also would like to create a comprehensive CSV file with all of the labels and identifiers with each item of clothing so that each testing result can bring up important shopping information. Finally, I would like to expand my parameters from just two to many different categories. 
 
