@@ -38,6 +38,10 @@ _This photo is a product picture from the brand's page. It's classified under th
 
 ![](bra_2.jpg)
 
+_This photo is from the brand's Instagram page, where the filter applied to aesthetically enhance the picture may present as an issue in the training process. The CNN will have a tougher time detecting the main item from the brand's line (the black top) but due to the shadows from the sun and the applied filter to enhance her skintone, the black colors in the jacket and shadows from the sun onto her face may blend together and make it harder for the algorithm to decide._
+
+![](insta_4.png) 
+
 ##The Future of my Research: 
 In the future, I plan on testing my Scan to Shop algorithm and hopefully expand it to apply to larger businesses like Topshop, Nike, and more. I also would like to create a comprehensive CSV file with all of the labels and identifiers with each item of clothing so that each testing result can bring up important shopping information. Finally, I would like to expand my parameters from just two to many different categories. 
 
