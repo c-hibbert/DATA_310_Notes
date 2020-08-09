@@ -13,7 +13,7 @@ Although highly effective, many improvements can be made to the tagging process 
 ## Potential Problems: 
 Like many items in the realm of shopping, fashion (especially fast fashion brands) are no stranger to variety. Because of the nature of what I would like the machine to be able to train, creating an algorithm that can easily detect the brand and/or item name of a piece of clothing requires an extensive training process. We’re talking about downloading and assessing hundreds of thousands, if not millions, of pictures for a machine to process. Sadly, I don’t think I have the capability to do so on my year-old MacBook Pro, but I can utilize a “trial set” of data. 
 
-##Data Collection
+## Data Collection
 ![](lapp_store_screenshot.png)
 For this project specifically, I would like to use data from a smaller clothing brand for the sake of ease. Lapp the Brand is a black-owned, UK based activewear clothing brand that is popular among the like of influencers like Jackie Aina, Patricia Bright, and others. The brand’s activewear is very identifiable due to its extremely brightly colored fabric, as well as their styles and branding logo. Ideally for this data, the items I would like to collect are as follows:
 
