@@ -14,24 +14,29 @@ Although highly effective, many improvements can be made to the tagging process 
 Like many items in the realm of shopping, fashion (especially fast fashion brands) are no stranger to variety. Because of the nature of what I would like the machine to be able to train, creating an algorithm that can easily detect the brand and/or item name of a piece of clothing requires an extensive training process. We’re talking about downloading and assessing hundreds of thousands, if not millions, of pictures for a machine to process. Sadly, I don’t think I have the capability to do so on my year-old MacBook Pro, but I can utilize a “trial set” of data. 
 
 ##Data Collection
-
+![](lapp_store_screenshot.png)
 For this project specifically, I would like to use data from a smaller clothing brand for the sake of ease. Lapp the Brand is a black-owned, UK based activewear clothing brand that is popular among the like of influencers like Jackie Aina, Patricia Bright, and others. The brand’s activewear is very identifiable due to its extremely brightly colored fabric, as well as their styles and branding logo. Ideally for this data, the items I would like to collect are as follows:
 
 * Photos of the items from the brand’s online store
 * Data of the items from the brand’s online store (US price (continuous), sizes available (categorical), categories its applied to (categorical), most accurate review)
 * Publicly accessible photos that have been reposted through Lapp the Brand’s instagram page ([@lappthebrand](https://www.instagram.com/lappthebrand/))
 
+As a result, I ended up collecting a total 44 images, 8 of which are photos from different instagram users reposted onto the brand's Instagram page, the rest are product shots from the brand's website.
 
 ## How the Machine Learning Method Works: 
 For the method, I wanted to create a framework similar to the ones we’ve seen in the Google Developers’ Tensorflow exercises like the Horses and Humans and Cats and Dogs Classification data sets. These data sets utilized an important tool in machine learning called a convolutional neural network, which is a process that is especially helpful for classifying specific features in images. Due to the size of the dataset, I will use a CNN with two Conv2d and two MaxPooling methods, along with one flatten and two dense layers to finish it off. Because we are starting with a small dataset that is based around activewear, let’s take two items of clothing classification (top & bottom) to choose from. Since we’ll use two identifiers, we can settle using sigmoid activation as well as binary cross-entropy in order to accurately train and validate our data.
 
 ## Results: 
-Although I haven’t had the chance to assess the model’s performance, I realized that there were some things that may develop into issues during the testing portion including:
+Although I haven’t had the chance to assess the model’s performance yet, I realized that there were some things that may develop into issues during the testing portion including:
 
 * filter/gradient of some of the posted photos (how can CNN detect pictures accurately where there are drastic filters done on the picture?)
 * Some of the pictures on the page were handpicked (applied to multiple categories)
 * Scanning videos atm is not a likely option
 * Two classifiers is simply not enough
+
+_This photo is a product picture from the brand's page. It's classified under the product page for the brand's bra as well as the pants, which can be a problem in the training process._
+
+![](bra_2.jpg)
 
 ##The Future of my Research: 
 In the future, I plan on testing my Scan to Shop algorithm and hopefully expand it to apply to larger businesses like Topshop, Nike, and more. I also would like to create a comprehensive CSV file with all of the labels and identifiers with each item of clothing so that each testing result can bring up important shopping information. Finally, I would like to expand my parameters from just two to many different categories. 
