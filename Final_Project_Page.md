@@ -45,3 +45,14 @@ _This photo is from the brand's Instagram page, where the filter applied to aest
 ## The Future of my Research: 
 In the future, I plan on testing my Scan to Shop algorithm and hopefully expand it to apply to larger businesses like Topshop, Nike, and more. I also would like to create a comprehensive CSV file with all of the labels and identifiers with each item of clothing so that each testing result can bring up important shopping information. Finally, I would like to expand my parameters from just two to many different categories. 
 
+## References and Bibliography
+
+(2020). Retrieved from https://www.lappthebrand.com
+
+(2020). Retrieved from https://www.instagram.com/lappthebrand/
+
+DeAcetis, J. (2020). What will be the future success of fashion retail in the digital age. Retrieved from https://www.forbes.com/sites/josephdeacetis/2020/05/19/what-will-be-the-future-success-of-fashion-retail-be-in-the-digital-age/#4a01e5666f5f
+
+Estay, B. (). 16 online shopping statistics: How many people shop online?. Retrieved from https://www.bigcommerce.com/blog/online-shopping-statistics/#5-essential-online-shopping-statistics
+
+Facebook IQ. (2019). How instagram boosts brands and drives sales. Retrieved from https://www.facebook.com/business/news/insights/how-instagram-boosts-brands-and-drives-sales
