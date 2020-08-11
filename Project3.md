@@ -20,7 +20,7 @@ _Below is my written code for the DNN_
 
 	model = tf.keras.models.Sequential([
 	  tf.keras.layers.Flatten(),
-	  tf.keras.layers.Dense( activation='relu'),
+	  tf.keras.layers.Dense(128, activation='relu'),
 	  tf.keras.layers.Dense(64, activation='relu'),
 	  tf.keras.layers.Dense(1)
 	])
