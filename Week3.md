@@ -64,7 +64,7 @@ The code predicted this orange Tabby to be a **cat**.
 
 The code predicted this Sphynx cat to be a **cat**.
 
-![](IMG_9282.jpg)
+![](IMG_9282.JPG)
 
 The code predicted my 11th grade German exchange student's dog to be a **dog**.
 
