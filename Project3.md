@@ -1,3 +1,4 @@
+![](first_batch.png)
 
 ## Let’s Talk about Project 3...
 
@@ -15,17 +16,23 @@ After importing the data, I merged all three Accra training files into one train
 	I then imported the labels, and separated them in correspondence to the respective training and testing files.
 
 ## Creating a DNN
+
+
 The next step was to create a basic deep neural network that could learn any consistent trends in relation to the pictures and their populations. Because there were so many pictures in the data, I decided to settle with there Dense layers of size 128, 64, and 1 in order. For an activation, I used “relu” for greater accuracy of maintaining relevant data points. For our compiling function, I used RMSprop to maintain the proper weights for each batch. Taking a hint at the auto_mpg code we used, I decided to utilize MSE and MAE for my loss and metrics. 
 
 ## Now Comes the Hard Part
-The first trial, I used a batch size of 12 and a set of 20 epochs with 15 steps per epoch. Simple enough for my computer although it did take a few minutes to run. The results were as follows:
+The first trial, I used a batch size of 12 and a set of 20 epochs with 15 steps per epoch. 
+![](first_batch.png)
+Simple enough for my computer although it did take a few minutes to run. The results were as follows:
 
 
 The MSE and MAE were extremely too high to the point where barely anything was learned in the process. This notes that my model was way too small for the data given. So I then tried to up the ante. And this is where things went south.
 
 ## Every American in the 80s greatest fear: The Terminator
-Looking back to the auto_mpg code, I wanted to be able to both track the history and graph the progress of the data. I upped the batch size to 140 items, with 70 epochs and 50 steps per epoch. To see the validation, I decided to try to watch the validation scores as well, creating a validation split of 0.2. I also added verbose since it was in the auto_mpg code (although I wasn’t quite sure what it does). And then when I ran the code, things went awry. The code would try to run for a few minutes and then this came up:
-
+Looking back to the auto_mpg code, I wanted to be able to both track the history and graph the progress of the data. I upped the batch size to 140 items, with 70 epochs and 50 steps per epoch. To see the validation, I decided to try to watch the validation scores as well, creating a validation split of 0.2. I also added verbose since it was in the auto_mpg code (although I wasn’t quite sure what it does). 
+![](new_batch_size.png)
+And then when I ran the code, things went awry. The code would try to run for a few minutes and then this came up:
+![](sigkill.png)
 
 I tried to look up this issue but the only reason that I got was that my computer wasn’t the happiest and therefore decided to terminate the code. So, I took off the verbose and validation lines and then…..
 
