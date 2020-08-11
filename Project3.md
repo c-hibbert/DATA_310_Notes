@@ -1,4 +1,4 @@
-![](first_batch.png)
+![](terminator.jpeg)
 
 ## Let’s Talk about Project 3...
 
@@ -16,17 +16,21 @@ After importing the data, I merged all three Accra training files into one train
 	I then imported the labels, and separated them in correspondence to the respective training and testing files.
 
 ## Creating a DNN
+_Below is my written code for the DNN_
 
+	model = tf.keras.models.Sequential([
+	  tf.keras.layers.Flatten(),
+	  tf.keras.layers.Dense( activation='relu'),
+	  tf.keras.layers.Dense(64, activation='relu'),
+	  tf.keras.layers.Dense(1)
+	])
 
 The next step was to create a basic deep neural network that could learn any consistent trends in relation to the pictures and their populations. Because there were so many pictures in the data, I decided to settle with there Dense layers of size 128, 64, and 1 in order. For an activation, I used “relu” for greater accuracy of maintaining relevant data points. For our compiling function, I used RMSprop to maintain the proper weights for each batch. Taking a hint at the auto_mpg code we used, I decided to utilize MSE and MAE for my loss and metrics. 
 
 ## Now Comes the Hard Part
 The first trial, I used a batch size of 12 and a set of 20 epochs with 15 steps per epoch. 
 ![](first_batch.png)
-Simple enough for my computer although it did take a few minutes to run. The results were as follows:
-
-
-The MSE and MAE were extremely too high to the point where barely anything was learned in the process. This notes that my model was way too small for the data given. So I then tried to up the ante. And this is where things went south.
+Simple enough for my computer although it did take a few minutes to run. The MSE and MAE were extremely too high to the point where barely anything was learned in the process (in the rates of 800). This notes that my model was way too small for the data given. So I then tried to up the ante. And this is where things went south.
 
 ## Every American in the 80s greatest fear: The Terminator
 Looking back to the auto_mpg code, I wanted to be able to both track the history and graph the progress of the data. I upped the batch size to 140 items, with 70 epochs and 50 steps per epoch. To see the validation, I decided to try to watch the validation scores as well, creating a validation split of 0.2. I also added verbose since it was in the auto_mpg code (although I wasn’t quite sure what it does). 
@@ -38,9 +42,9 @@ I tried to look up this issue but the only reason that I got was that my compute
 
 The code just kept running….
 
-And running……
+*And running……*
 
-And running…..
+***And running....***
 
 But with no start of the epochs or trained data learned. 
 
