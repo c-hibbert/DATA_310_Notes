@@ -89,3 +89,19 @@ Allowing the RNN to process twice as it goes forward **and** backwards through a
 
 ### Neural machine translation with attention
 * Use the translate() command at the end of the exercise to translate three sentences from Spanish to English.  How did your translations turn out?
+
+_The three translations are as follows_
+
+* Input 1: hace mucho frio aqui.
+* Output 1: it s very cold here.
+_________
+
+* Input 2: esta es mi vida.
+* Output 2: this is my life.
+_________
+
+* Input 3: ¿ todavia estan en casa ?
+* Output 3: are you still at home ?
+__________
+
+In the end, the translations came out fairly well, very impressive and I'm glad it worked (especially after how long it took to run [about 4 hours of training])!
