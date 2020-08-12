@@ -51,5 +51,41 @@ _With LSTM_
 ### Text generation with an RNN
 * Use the generate_text() command at the end of the exercise to produce synthetic output from your RNN model.  Run it a second time and review the output.  How has your RNN model been able to “learn” and “remember” the shakespeare text in order to reproduce a similar output?
 
+_The following is the Shakespeare text generated after two runs_
+
+	ROMEO: I may at
+	Corapiless vial tempisartly,
+	I'll do him ashes not the mind of your honour.
+	
+	PETRUCHIO:
+	Who cousins here?
+	That stand within the well-comfort in my blow his greeful day: the rest, which bid
+	It were the England confusion of des
+	Alas, Montague it pleasure sister,
+	Thy ends for proud my books. Where is her eye,
+	Thene were an edmand great are services stend us.
+	
+	VIRGILIA:
+	I am the king, who have not die to seiz upon thy sword:
+	Would the people, of a vilour will shall
+	Most sugden his substance as ce
+	Our dread soul venture would tell this most self,
+	Nor chances after down by what's the port,
+	My house of yourselves draw justice
+	Murches the buttafforced. Ho must nature,
+	Though she would make your design,
+	If time my mighty stock sadches wearselfea-need him.
+	Would on home. Your aid,
+	I go fortain'd for your majesty.
+	
+	KING HENRY VI:
+	For that cannot a high absent born. But why, being love thy hand,
+	I will be clofk.
+
+	CLIUF:
+	Therefore, buring in death; my girl and thine express, he looks any s
+
+Allowing the RNN to process twice as it goes forward **and** backwards through a bidirectional keras layer allows the input to take in and learn large heaps of information in a timely manner and reiterate the results ina more accurate way. 
+
 ### Neural machine translation with attention
 * Use the translate() command at the end of the exercise to translate three sentences from Spanish to English.  How did your translations turn out?
